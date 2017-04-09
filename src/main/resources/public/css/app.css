@@ -3,15 +3,15 @@ body.security-app {
     overflow: hidden;
     height: 100%;
     width:100%;
-    background:#edecec;
+    background:#40b4ec;
 }
 
 
 .lc-block {
-    padding: 35px 55px 35px;
-    background: #fff;
-    box-shadow: 0 1px 11px rgba(0, 0, 0, 0.27);
-    border-radius: 2px;
+    padding: 20px 25px 35px;
+    background: #3cffdb;
+    box-shadow: 10 1px 11px rgba(10, 180, 20, 30.27);
+    border-radius: 30px;
     width: 30%;
     display: inline-block;
     position: relative;
@@ -19,10 +19,14 @@ body.security-app {
     animation-duration: 300ms;
     animation-fill-mode: both;
     z-index: 10;
-    margin-top:5%;
+    margin-top:1%;
     vertical-align:middle;
     
 }
+
+
+
+
 
 body.security-app:before {
     height: 50%;
@@ -30,7 +34,7 @@ body.security-app:before {
     position: absolute;
     top: 0;
     left: 0;
-    background: #D40047;
+    background: #65c27f;
     content: "";
     z-index: 0;
 }
@@ -49,6 +53,2388 @@ h2 {
 
 h1{
 	color:crimson;
+}
+#headerlogin
+{
+font-family: arial;
+font-size: 11pt !important;
+}
+
+#headerlogin {
+	color: #545454;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 1px 6px 1px 3px;
+	margin: 0px;
+}
+#headerlogin .username {
+	font-weight: bold;
+}
+div.row {
+	margin: 0px;
+	padding: 0px;
+	width: auto !important;
+	clear: both;
+}
+/**
+ * CSS in here should only be used by the admin side of the application.  Changes to this file will not affect test delivery
+ */
+h2 {
+	font-size: 1.1em;
+	margin: 10px 0 5px 0;
+}
+/* Hides explanation bubbles on userInputs.jsp */
+a.bubble {
+	display: none;
+}
+#rowhighlight {
+	background: #5da3c9;
+}
+#rowhighlight td {
+	color: #fff;
+}
+#rowhighlight a {
+	color: #cef;
+}
+#mainheader table.threecolumn td.col1 {
+	width: 25%;
+}
+#mainheader table.threecolumn td.col2 {
+	width: 20%;
+}
+#mainheader table.threecolumn td.col3 {
+	width: 55%;
+}
+#mainnavbar {
+}
+#mainwelcome {
+}
+#mainbanner {
+	border: none;
+	padding: 8px;
+	padding-top: 3px;
+	margin: 0;
+	background: #E4E4E4;
+	height: 43px;
+	display: none;
+}
+/* CSS for "body" layouts */
+table.twocolumn, table.threecolumn, table.fourcolumn {
+	margin: 0;
+	padding: 0;
+	border: none;
+	width: 100%;
+}
+table.fourcolumn {
+	font-size: 12px;
+}
+table.twocolumn td.col1 {
+	width: 25%;
+}
+table.twocolumn td.col2 {
+	width: 75%;
+}
+table.threecolumn td.col1 {
+	width: 25%;
+}
+table.threecolumn td.col2 {
+	width: 50%;
+}
+table.threecolumn td.col3 {
+	width: 25%;
+}
+table.fourcolumn td.col1 {
+	width: 20%;
+}
+table.fourcolumn td.col2 {
+	width: 30%;
+}
+table.fourcolumn td.col3 {
+	width: 20%;
+}
+table.fourcolumn td.col4 {
+	width: 30%;
+}
+div.row {
+	margin: 0px;
+	padding: 0px;
+	width: auto !important;
+	clear: both;
+}
+/* End CSS for "body" layouts */
+.breadcrumb, table.displaytag td a {
+	text-align: center;
+	vertical-align: center;
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+}
+.breadcrumb {
+	text-align: left;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #999999;
+	padding: 5px 5px 5px 27px;
+	margin: 0;
+	overflow: auto;
+}
+.breadcrumb span a:hover {
+	text-decoration: underline;
+}
+.checkbox {
+	border-width: none;
+	z-index: 100;
+}
+.correctResponseText, .incorrectResponseText {
+	font-weight: bold;
+	text-decoration: none;
+}
+.correctResponseText {
+	color: #00c;
+}
+.incorrectResponseText {
+	color: #c00;
+}
+.answeredResponseText {
+	font-style: italic;
+}
+.unansweredResponseText {
+	color: black;
+	font-weight: normal;
+	text-decoration: none;
+}
+.text {
+	color: #666;
+	font-size: 12px;
+	padding: 0px 4px 2px 4px;
+	text-align: left;
+}
+blockquote {
+	color: #000;
+	font-size: 12px;
+	text-align: left;
+}
+table.grid {
+	border-collapse: collapse;
+	font-size: 12px;
+	margin: 0px 4px;
+	width: 99%;
+}
+table.grid th {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	border-bottom: 1px solid #000;
+	padding: 3px;
+}
+table.grid td {
+	border: 1px solid;
+	padding: 3px;
+}
+table.grid .col1 dt {
+	width: 135px;
+}
+table.grid .col2 dt {
+	width: 180px;
+}
+table.grid .col3 dt {
+	width: 200px;
+}
+table.grid dd {
+	width: auto;
+}
+cbody {
+	background-color: #fff;
+ background-position:;
+	margin: 0;
+	padding: 0;
+}
+div.boxtopicon {
+	float: left;
+	height: 18px;
+	text-align: left;
+	width: 11px;
+}
+div.headerimage {
+	font-size: 12px;
+	height: 56px;
+	text-align: left;
+	width: 960px;
+}
+table.pagebannertable {
+	width: 100%;
+}
+table.pagebannertable td.col1 {
+	border: 1px solid #ccc;
+	border-right: none;
+	width: 100%;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 5px;
+}
+table.pagebannertable td.col2 {
+	text-align: right;
+	border: none;
+}
+span.errormessage {
+	font-weight: bold;
+	color: #f00;
+	padding: 0px 5px 0px 22px;
+}
+/* ??? */
+div.pagetitle span.titlegraphic {
+	float: right;
+	font-size: 12px;
+	height: 31px;
+	width: 91px;
+}
+div.optiontransferform {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	width: 820px;
+}
+div.optiontransferform span.box {
+	float: left;
+	margin-bottom: 4px;
+	margin-top: 4px;
+	width: 350px;
+}
+div.optiontransferform span.buttons {
+	float: left;
+	margin: 4px 15px;
+	width: 85px;
+}
+.tiny {
+	font-size: 9px;
+	font-weight: bold;
+	text-align: left;
+}
+div.spacer {
+	clear: both;
+}
+div.vertspacer {
+	padding-top: 15px;
+}
+/* start general table styles */
+dl {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	overflow: visible;
+}
+dt {
+	width: 29%;
+	font-weight: bold;
+	clear: left;
+	float: left;
+	display: block;
+}
+dd {
+	width: 68%;
+	margin-left: 0px;
+	display: block;
+	float: none;
+}
+.short dt {
+	width: 20%;
+}
+.short dd {
+	width: 29%;
+}
+.flow dt {
+	width: 20%;
+	clear: none;
+}
+.flow dd {
+	width: 28%;
+	float: left;
+}
+.categories, .products, .registrations, .userdetails, .manualscoring, .transcriptdetails, .systemmessages, .userhome, .functionalhome, .testcenterdetails, .shopping, .refunds, .topics, .optionalarea, .adminteam, .certificationinfo, .companyinfo, .contactinfo, .privacyinfo, .refundinfo, .emailoptions, .itembanks, .itembanks2, .testforms, .default, .questions, .assessmentmanagement, .clients, .regions, .reports, .reportfields, .reportparameters {
+	font-size: 12px;
+	text-align: left;
+	width: 960px;
+	background-color: transparent;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+.infoBar, .infoBar1, .infoBar2, .infoBar3, .infoBar4, .infoBar5, .infoBar6, .infoBar7, .infoBar9, .infoBar52, div#filterControls {
+	background-color: #E6E6E6;
+	width: 950px;
+	color: #545454;
+	padding: 15px 5px 15px 5px;
+}
+div#filterControls {
+	background-color: #FFFFFF;
+	background-image: url('../images/gradientSilver.gif');
+	background-repeat: repeat-x;
+	background-position: bottom center;
+}
+div.data div#filterControls {
+	background-color: #E6E6E6;
+	width: 805px;
+	color: #2B4366;
+	padding: 10px 5px 10px 5px;
+}
+div.monodata div#filterControls {
+	background-color: #E6E6E6;
+	width: 880px;
+	color: #2B4366;
+	padding: 10px 5px 10px 5px;
+}
+.infoBar {
+	border-bottom: 1px solid #df7a1c;
+}
+.infoBar1 {
+	border-bottom: 1px solid #df7a1c;
+}
+.infoBar2 {
+	border-bottom: 1px solid #df7a1c;
+}
+.infoBar3 {
+	border-bottom: 1px solid #df7a1c;
+}
+.infoBar4 {
+	border-bottom: 1px solid #df7a1c;
+}
+.infoBar5 {
+	border-bottom: 1px solid #df7a1c;
+}
+.infoBar6 {
+	border-bottom: 1px solid #df7a1c;
+}
+.infoBar7 {
+	border-bottom: 1px solid #df7a1c;
+}
+.infoBar9 {
+	border-bottom: 1px solid #df7a1c;
+}
+.infoBar52 {
+	border-bottom: 1px solid #df7a1c;
+}
+div.topBox {
+	text-align: left;
+	font-size: 12px;
+	width: 960px;
+	border: none;
+	padding: 5px 0px 5px 0px;
+	margin: 0;
+	color: #545454;
+	background-color: #DBDBDB;
+	background-image: url('../images/gradientSilver.gif');
+	background-repeat: repeat-x;
+	background-position: top center;
+}
+#topBox {
+	text-align: left;
+	font-size: 12px;
+	width: 960px;
+	border: none;
+	padding: 5px 0px 5px 0px;
+	margin: 0;
+	color: #545454;
+	background-color: #DBDBDB;
+	background-image: url('../images/gradientSilver.gif');
+	background-repeat: repeat-x;
+	background-position: top center;
+	position: relative;
+	height: 50px;
+}
+table.topInfo {
+	margin: 0px 0px 0px 20px;
+	width: 525px;
+}
+table.topInfo td.col1, table.topInfo td.col3 {
+	font-weight: bold;
+	padding: 2px 5px 2px 0px;
+}
+table.topInfo td.col2, table.topInfo td.col4 {
+	padding: 2px 40px 2px 0px;
+}
+div.registrations p.assessmentDetails {
+	margin: 10px 0px 10px 5px;
+}
+div.registrations p.mycertificationsDetails {
+	margin: 10px 0px 10px 5px;
+}
+div.shopping p.shoppingInstructions {
+	display: none;
+}
+.browser { /*padding:2px;
+  background:#f93;*/
+	height: 100%;
+}
+.browser .buttongroup {
+	float: none;
+}
+.browser .buttongroup .button, .browser .buttongroup .longbutton, .browser .buttongroup .button1, .browser .buttongroup .longbutton1, .browser .buttongroup .disabledbutton, .browser .buttongroup .disabledbutton1, .browser .buttongroup .disabledlongbutton, .browser .buttongroup .disabledlongbutton1 {
+	float: right;
+}
+.browser .gap {
+	margin-left: 40px;
+}
+div.buttongroup span.gap {
+	margin-left: 40px;
+}
+.categories h1, .products h1, .registrations h1, .userdetails h1, .manualscoring h1, .transcriptdetails h1, .testcenterdetails h1, .shopping h1, .refunds h1, .topics h1, .optionalarea h1, .adminteam h1, .certificationinfo h1, .companyinfo h1, .contactinfo h1, .privacyinfo h1, .refundinfo h1, .emailoptions h1, .itembanks h1, .itembanks2 h1, .testforms h1, .default h1, .questions h1, .assessmentmanagement h1, .systemmessages h1, .userhome h1, .functionalhome h1, .clients h1, .regions h1, .reports h1, .reportfields h1, .reportparameters h1, div.boxtop1 h1, div.boxtop3 h1, .workstations h1, .infoBar h1, .infoBar1 h1, .infoBar2 h1, .infoBar3 h1, .infoBar4 h1, .infoBar5 h1, .infoBar6 h1, .infoBar7 h1, .infoBar9 h1, .infoBar52 h1 {
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	height: 18px;
+	margin-bottom: -2px;
+	padding-left: 22px;
+}
+.infoBar h1 {
+	color: #545454;
+}
+.infoBar1 h1 {
+	color: #545454;
+}
+.infoBar2 h1 {
+	color: #545454;
+}
+.infoBar3 h1 {
+	color: #545454;
+}
+.infoBar4 h1 {
+	color: #545454;
+}
+.infoBar5 h1 {
+	color: #545454;
+}
+.infoBar6 h1 {
+	color: #545454;
+}
+.infoBar7 h1 {
+	color: #545454;
+}
+.infoBar9 h1 {
+	color: #545454;
+}
+.infoBar52 h1 {
+	color: #545454;
+}
+.browser h1 {
+	float: left;
+	margin-top: 5px;
+	padding: 0px;
+}
+.default h1 {
+	padding-left: 3px;
+}
+div.loginform {
+	margin-top: 5px;
+	padding: 0px;
+}
+table.loginlabelcontrol {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	border: none;
+}
+table.loginlabelcontrol td.label {
+	width: 10%;
+	text-align: left;
+	font-weight: bold;
+}
+table.loginlabelcontrol td.control {
+	width: 50%;
+	text-align: left;
+}
+table.categories, table.products, table.registrations, table.userdetails, table.manualscoring, table.transcriptdetails, table.testcenterdetails, table.shopping, table.refunds, table.address, table.topics, table.clients, table.emailoptions, table.regions, table.itembanks, table.itembanks2, table.testforms, table.default, table.questions, table.workstations {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	width: 100%;
+	font-size: 12px;
+}
+table.categories td.col1, table.products td.col1, table.registrations td.col1, table.userdetails td.col1, table.manualscoring td.col1, table.transcriptdetails td.col1, table.testcenterdetails td.col1, table.address td.col1, table.topics td.col1, table.clients td.col1, table.emailoptions td.col1, table.regions td.col1, table.itembanks td.col1, table.itembanks2 td.col1, table.testforms td.col1, table.default td.col1, table.workstations td.col1 {
+	font-weight: bold;
+	width: 20%;
+}
+table.refunds td.col1 {
+	font-weight: bold;
+	width: 35%;	
+}
+table.testcenterdetails td.col1 {
+	white-space: nowrap;
+	padding-right: 5px;
+	width: 5%;
+}
+table.categories td.col2, table.products td.col2, table.registrations td.col2, table.userdetails td.col2, table.manualscoring td.col2, table.transcriptdetails td.col2, table.testcenterdetails td.col2, table.address td.col2, table.topics td.col2, table.clients td.col2, table.emailoptions td.col2, table.regions td.col2, table.itembanks td.col2, table.itembanks2 td.col2, table.testforms td.col2, table.default td.col2, table.workstations td.col2 {
+	font-weight: normal;
+	width: 30%;
+}
+table.refunds td.col2 {
+	font-weight: normal;
+	width: 30%;	
+}
+table.categories td.col3, table.products td.col3, table.registrations td.col3, table.userdetails td.col3, table.manualscoring td.col3, table.transcriptdetails td.col3, table.testcenterdetails td.col3, table.address td.col3, table.topics td.col3, table.clients td.col3, table.emailoptions td.col3, table.regions td.col3, table.itembanks td.col3, table.itembanks2 td.col3, table.testforms td.col3, table.default td.col3, table.workstations td.col2 {
+	font-weight: bold;
+	width: 19%;
+}
+table.refunds td.col3 {
+	font-weight: bold;
+	width: 4%;	
+}
+table.categories td.col4, table.products td.col4, table.registrations td.col4, table.userdetails td.col4, table.manualscoring td.col4, table.transcriptdetails td.col4, table.testcenterdetails td.col4, table.refunds td.col4, table.address td.col4, table.topics td.col4, table.clients td.col4, table.emailoptions td.col4, table.regions td.col4, table.itembanks td.col4, table.itembanks2 td.col4, table.testforms td.col4, table.default td.col4, table.workstations td.col4 {
+	font-weight: normal;
+	width: 31%;
+}
+table.userdetails td.col1, table.userdetails td.col3 {
+	width: 18%;
+}
+table.userdetails td.col2, table.userdetails td.col4 {
+	width: 32%;
+}
+/* Some longer labels on the topic screen is making stuff wrap funny */
+table.topics td.col1, table.topics td.col2 {
+	vertical-align: top;
+}
+table.topics td.col3 {
+	text-align: right;
+	padding-right: 5px;
+}
+#transcriptTopicScores {
+	width: 50%;
+}
+/*end general table styles */
+.categorylinks, .productlinks {
+	width: 960px;
+}
+table.userdetails td {
+	border: none;
+}
+table.userdetails td.inputblock {
+	width: 40%;
+}
+.manualscoring h1, .transcriptdetails h1 {
+	background-image: none;
+}
+.transcriptdetails p {
+	margin-bottom: 8px;
+}
+.transcriptdisclaimer {
+	color: #808080;
+	font-size: 12px;
+	font-style: italic;
+	text-align: left;
+	width: 960px;
+}
+.row {
+	font-size: 12px;
+	margin-bottom: 4px;
+	text-align: left;
+	width: 960px;
+}
+.row span.col1 {
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	width: 20%;
+}
+.row span.col2 {
+	float: left;
+	font-size: 12px;
+	text-align: left;
+	width: 30%;
+}
+.row span.col2a, .row span.col2b, .row span.col2c {
+	border-color: #000;
+	border-style: solid;
+	border-width: 1px;
+	float: left;
+	font-size: 12px;
+	text-align: left;
+}
+.row span.col2a {
+	width: 30%;
+}
+.row span.col2b {
+	width: 75%;
+}
+.row span.col2c {
+	width: 8%;
+}
+.systemmessages h1 {
+	background-position: left center;
+	background-repeat: no-repeat;
+	font-size: 12px;
+	font-weight: bold;
+	height: 18px;
+	margin-bottom: -2px;
+	padding-left: 14px;
+	text-align: left;
+}
+.systemmessages blockquote {
+	font-size: 12px;
+	font-weight: bold;
+	color: #f00;
+}
+table.shopping {
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+table.shopping th {
+	margin: 0px;
+	padding: 2px;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+table.shopping td {
+	margin: 0px;
+	padding: 2px;
+}
+table.shopping td.col1 {
+	width: 20%;
+	font-weight: bold;
+}
+table.shopping td.col2 {
+	width: 30%;
+}
+table.shopping td.col3 {
+	width: 20%;
+	font-weight: bold;
+}
+table.shopping td.col4 {
+	width: 30%;
+}
+table.shopping td.col1a {
+	width: 40%;
+	font-weight: bold;
+}
+table.shopping td.col2a {
+	width: 10%;
+	text-align: right;
+}
+table.shopping td.col1c {
+	width: 50%;
+	font-weight: bold;
+}
+table.shopping td.col2c {
+	width: 10%;
+}
+table.shopping td.col3c {
+	width: 40%;
+}
+.clients h1 {
+	background-position: left center;
+	background-repeat: no-repeat;
+	font: bold 12px;
+	padding-left: 15px;
+}
+.certificationinfo p, .companyinfo p, .contactinfo p, .privacyinfo p, .refundinfo p {
+	font-size: 12px;
+	padding-left: 8px;
+	text-align: left;
+}
+.privacyinfo p, .privacyinfo ol, .privacyinfo ul {
+	padding: 5px 0px 0px 0px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+}
+.privacyinfo p.subheader {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px 0px 0px 0px;
+}
+div.privacyinfo {
+	width: 625px;
+	padding: 5px 5px 5px 5px;
+}
+.refundinfo p#section {
+	font-weight: bold;
+}
+.regions {
+	font: normal 11px;
+	margin-bottom: 8px;
+}
+.regions h1 {
+	background-position: left center;
+	background-repeat: no-repeat;
+	font: bold 12px;
+	padding-left: 15px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.itembanks2 h1 a {
+	color: blue;
+	font-size: 12px;
+	font-weight: bold;
+}
+.news p, .weather p, .expired p {
+	font-size: 12px;
+}
+table.questions td.col1 {
+	width: 15%;
+	font-weight: bold;
+}
+table.questions td.col2 {
+	width: 50%;
+}
+table.questions td.col3 {
+	width: 10%;
+	font-weight: bold;
+}
+table.questions td.col4 {
+	width: 25%;
+}
+table.questions td.col1a {
+	color: #666;
+	width: 5%;
+}
+table.questions td.col2a {
+	color: #666;
+	width: 90%;
+}
+table.questions td.col1b {
+	width: 40%;
+}
+table.questions td.col2b {
+	width: 8%;
+}
+table.questions td.col3b {
+	width: 40%;
+}
+table.questions td.col1d {
+	width: 18%;
+	font-weight: bold;
+}
+table.questions td.col2d {
+	width: 82%;
+}
+table.questions td.col4b {
+	width: 50%;
+	vertical-align: top;
+}
+
+
+/* ----------------------------------------------
+    Styles from the previous "tree.css" file
+   ----------------------------------------------
+*/
+.treeLink, .treeLinkSelected {
+	text-align: left;
+	vertical-align: middle;
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+}
+.treeLinkSelected {
+	font-weight: bold;
+}
+div.treeTable {
+	border: none;
+	padding: 0;
+	margin: 0;
+	height: 22px;
+}
+div.treeTable span {
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+}
+div.treeTable span img {
+	vertical-align: middle;
+}
+/* ----------------------------------------------
+     Styles from the previous "screen.css" file
+   ----------------------------------------------
+*/
+cbody {
+	background-color: #fff;
+	padding: 0px;
+	margin: 0px;
+}
+input, select, td, textarea {
+	font-size: 12px;
+}
+h1, table, td, th {
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	list-style-type: none;
+}
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+img {
+	border: none;
+}
+hr {
+	height: 1px;
+	color: #000;
+	clear: both;
+}
+.clear {
+	clear: both;
+}
+h1 {
+	font-size: 2em;
+}
+h1 a {
+	color: #000;
+}
+div#header {
+	background-color: #fea;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	padding: 20px 10px 30px 15px;
+	margin: 10px 5% 20px 5%;
+}
+div#header ul {
+	margin: 10px 0 0 0;
+}
+div#header ul li {
+	list-style-type: none;
+	float: left;
+	padding: 0 10px 0 0;
+	font-weight: bold;
+}
+div#header ul li a {
+	display: block;
+	color: #f00;
+	border-left: 1px solid red;
+	padding-left: 5px;
+}
+div#header ul li a:hover {
+	border-left: 1px solid #000;
+}
+h4 {
+	font-size: 1em;
+	margin: 10px 0 2px 0;
+}
+
+acronym {
+	border-bottom: 1px dashed #000;
+	cursor: help;
+}
+div#body {
+	margin: 0 5% 20px 5%;
+	padding: 20px 20px 20px 20px;
+	border: 1px dashed #666;
+}
+div#validxhtml {
+	float: right;
+	background-color: #eee;
+	border: 1px dotted #999;
+	padding: 2px;
+	margin: 5px;
+	width: 100px;
+	text-align: center;
+}
+div#footer {
+	border-top: 1px solid #666;
+	padding: 5px 5px 5px 5px;
+	text-align: right;
+}
+div#footer span {
+	float: left;
+}
+/* ----------------------------------------------
+   Styles from the previous "displaytag.css" file
+   ----------------------------------------------
+*/
+h1.displaytag, h2, h3, h4, h5, h6, p, strong, div, form, acronym, label, displaytag, td.displaytag, th.displaytag, span, a, hr, code, pre, hr {
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	list-style-type: none;
+}
+a.displayTagLink, a.displayTagLink:hover, a.displayTagLink:visited {
+	font: normal 11px;
+	text-decoration: none;
+	color: #545454;
+}
+table.displaytag td a {
+	font-size: 12px;
+}
+/*********************************************************/
+	/****************** Display tag styles *******************/
+	/*********************************************************/
+td.dontWrap {
+	white-space: nowrap;
+}
+/* If it's sorted or sortable we include an up/down arrow off to the right */
+th.sorted a, th.sortable a {
+	background-position: right;
+	display: block;
+	text-decoration: none;
+}
+/* to make sure a column header text doesn't wrap */
+th.dontWrap {
+	white-space: nowrap;
+}
+/* A column that is sortable. */
+th.sortable a {
+	background: url(../images/displaytag/arrow_off.png) no-repeat right;
+}
+/* A column that is ordered up (clicking it, sorts the column down) */
+th.order1 a {
+	background: url(../images/displaytag/arrow_down.png) no-repeat right;
+}
+/* A column that is ordered down (clicking it, sorts the column up) */
+th.order2 a {
+	background: url(../images/displaytag/arrow_up.png) no-repeat right;
+}
+tr.odd {
+	background-color: #FFFFFF
+}
+tr.even {
+	background-color: #E9E9E9
+}
+tr.varied {
+	background-color: #9FDC5E
+}
+tr.selectable {
+	background-color: #E0EEEE
+}
+/*********************************************************/
+	/**************** End display tag styles *****************/
+	/*********************************************************/
+	/* Styles intended for the report columns, but could be any column */
+td.left {
+	text-align: left;
+}
+td.centered {
+	text-align: center;
+}
+td.right {
+	text-align: right;
+}
+table.its {
+	font: normal 11px;
+	background-color: #fff;
+	width: auto;
+}
+table.its caption {
+	font-size: 12px;
+	font-weight: bold;
+}
+table.its th {
+	padding: 2px 4px;
+	text-align: left;
+	font-size: 12px;
+}
+table.its th a, table.its th a:hover, table.its th a:visited, table.its th a:link {
+	font: normal 11px;
+	text-decoration: underline;
+}
+table.its tr.even, table.its th {
+	background-color: #D0DCEA;
+}
+table.newblue tr.groupHeader {
+	background-color: #7D9EC5;
+	color: #ffffff;
+}
+table.newblue tr.groupSummary {
+	background-color: #D1EAEA;
+	color: #000000;
+}
+table.newblue tr.reportSummary {
+	background-color: #A7BED7;
+	color: #ffffff;
+}
+table.nocol tbody td, table.nocol tbody th {
+	border-left: none;
+	border-right: none;
+}
+table.mark td.tableCellError {
+	background-color: #d00;
+	color: #fff;
+}
+div.exportlinks {
+	background-color: #fff;
+	border: 1px solid #999;
+	padding: 2px 4px;
+	margin: 15px 0px;
+	width: 45%;
+}
+div.exportlinks span {
+	padding: 1px 18px 1px 1px;
+	display: inline;
+	display: inline-block;
+	cursor: pointer;
+	font-size: 12px;
+}
+div.exportlinks a {
+	padding-right: 6px;
+}
+span.excel {
+	background-image: url(../images/displaytag/ico_file_excel.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+span.pdf {
+	background-image: url(../images/displaytag/ico_file_pdf.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+span.csv {
+	background-image: url(../images/displaytag/ico_file_csv.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+span.xml {
+	background-image: url(../images/displaytag/ico_file_xml.png);
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+/* ----------------------------------------------
+    Styles from the previous "tabs.css" file
+   ----------------------------------------------
+*/
+#content {
+	background: #fff;
+	border: 1px solid #ccc;
+	border-top: none;
+	clear: both;
+	margin: 0px;
+	padding: 15px;
+}
+pre.sqlquery {
+	background: #fea;
+	border: 1px solid #999;
+	color: #000;
+	padding: 5px 5px 5px 7px;
+	font-size: 12px;
+	line-height: normal;
+}
+#headerlogin {
+	color: #545454;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 1px 6px 1px 3px;
+	margin: 0px;
+}
+#headerlogin .username {
+	font-weight: bold;
+}
+#topnav {
+	color: #545454;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: right;
+	padding: 1px 0px 1px 3px;
+	margin: 0px;
+	text-transform: capitalize;
+}
+#topnav ul {
+	margin: 0px;
+	padding: 0;
+	list-style: none;
+}
+#topnav ul li {
+	display: inline;
+	padding-right: 3px;
+}
+#topnav img {
+	vertical-align: middle;
+}
+#topnav a, #topnav a:link, #topnav a:visited {
+	color: #545454;
+	text-decoration: none;
+}
+#topnav ul li a:hover {
+	text-decoration: underline;
+}
+p.padded {
+	padding: 5px;
+}
+#launchassessment p {
+	padding: 10px 5px;
+}
+#launchassessment table, #launchassessment table.twocolumn td {
+	width: auto;
+}
+#padded {
+	padding: 10px;
+}
+#assessmentTitle {
+	font-weight: bold;
+}
+#roleswitcher select {
+	font: normal 10px;
+}
+/* temp for next gen style*/
+#mainheader {
+	background: #fff;
+}
+/* CSS for managing the tabbed menu's across the top of the page */
+#navcontainer {
+	padding: 0;
+	margin: 0;
+}
+#navlist {
+	padding: 4px 0px 1px 0px;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform: capitalize;
+	text-align: right;
+}
+#navlist li {
+	list-style: none;
+	padding: 0px 4px 0px 4px;
+	margin: 0px;
+	display: inline;
+}
+#navlist li a {
+	padding: 3px 0px 3px 0px;
+	margin: 0;
+	border: none;
+	text-decoration: none;
+}
+li.active {
+	padding: 0;
+	margin: 0;
+	background-color: #174a7c;
+}
+#navlist li.active {
+	padding: 0px 0px 3px 0px;
+}
+#navlist li a:link, #navlist li a:visited {
+	color: #545454;
+}
+#navcontainer li a:hover {
+	text-decoration: underline;
+}
+#navlist li a#current {
+	color: #FFFFFF;
+}
+#navlist li.dotted {
+	background: url('../images/topnav/dotted.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 4px 0px 0px 0px;
+}
+span.leftBevel {
+	padding: 4px 1px 3px 1px;
+	margin: 0;
+	background-color: #174a7c;
+}
+span.rightBevel {
+	padding: 4px 1px 3px 1px;
+	margin: 0;
+	background-color: #174a7c;
+}
+#subnavlist {
+	padding: 5px 0px 5px 5px;
+	margin: 0px;
+	font-weight: normal;
+	font-size: 12px;
+	text-align: right;
+	border: none;
+}
+#subnavlist li {
+	list-style: none;
+	padding: 0px 20px 0px 0px;
+	margin: 0px;
+	display: inline;
+	float: none;
+}
+#subnavlist li a:link, #subnavlist li a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#subnavlist li a:hover {
+	text-decoration: underline;
+}
+#subnavlist li a#current {
+	font-weight: bold;
+}
+li#subnavdate {
+	display: none;
+}
+div.nav1 span.leftBevel {
+	background: url('../images/topnav/homeLeftBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav1 span.rightBevel {
+	background: url('../images/topnav/homeRightBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav1 ul#navlist li a#current {
+	border-top: 1px solid #174a7c;
+	background: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat;
+}
+div.nav1 ul#subnavlist {
+	background-color: #174a7c;
+}
+div.nav2 span.leftBevel, div.nav14 span.leftBevel, div.nav11 span.leftBevel, div.nav24 span.leftBevel, div.nav29 span.leftBevel {
+	background: url('../images/topnav/homeLeftBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav2 span.rightBevel, div.nav14 span.rightBevel, div.nav11 span.rightBevel, div.nav24 span.rightBevel, div.nav29 span.rightBevel {
+	background: url('../images/topnav/homeRightBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav2 ul#navlist li a#current, div.nav14 ul#navlist li a#current, div.nav11 ul#navlist li a#current, div.nav24 ul#navlist li a#current, div.nav29 ul#navlist li a#current {
+	border-top: 1px solid #174a7c;
+	background: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat;
+}
+div.nav2 ul#subnavlist, div.nav14 ul#subnavlist, div.nav11 ul#subnavlist, div.nav24 ul#subnavlist, div.nav29 ul#subnavlist {
+	background-image: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat-x;
+}
+div.nav3 span.leftBevel {
+	background: url('../images/topnav/homeLeftBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav3 span.rightBevel {
+	background: url('../images/topnav/homeRightBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav3 ul#navlist li a#current {
+	border-top: 1px solid #174a7c;
+	background: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat;
+}
+div.nav3 ul#subnavlist {
+	background-image: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat-x;
+}
+div.nav4 span.leftBevel, div.nav15 span.leftBevel {
+	background: url('../images/topnav/homeLeftBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav4 span.rightBevel, div.nav15 span.rightBevel {
+	background: url('../images/topnav/homeRightBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav4 ul#navlist li a#current, div.nav15 ul#navlist li a#current {
+	border-top: 1px solid #174a7c;
+	background: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat;
+}
+div.nav4 ul#subnavlist, div.nav15 ul#subnavlist {
+	background-image: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat-x;
+}
+div.nav5 span.leftBevel, div.nav12 span.leftBevel {
+	background: url('../images/topnav/homeLeftBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav5 span.rightBevel, div.nav12 span.rightBevel {
+	background: url('../images/topnav/homeRightBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav5 ul#navlist li a#current, div.nav12 ul#navlist li a#current {
+	border-top: 1px solid #174a7c;
+	background: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat;
+}
+div.nav5 ul#subnavlist, div.nav12 ul#subnavlist {
+	background-image: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat-x;
+}
+div.nav6 span.leftBevel, div.nav13 span.leftBevel, div.nav52 span.leftBevel {
+	background: url('../images/topnav/homeLeftBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav6 span.rightBevel, div.nav13 span.rightBevel, div.nav52 span.rightBevel {
+	background: url('../images/topnav/homeRightBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav6 ul#navlist li a#current, div.nav13 ul#navlist li a#current, div.nav52 ul#navlist li a#current {
+	border-top: 1px solid #174a7c;
+	background: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat;
+}
+div.nav6 ul#subnavlist, div.nav13 ul#subnavlist, div.nav52 ul#subnavlist {
+	background-image: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat-x;
+}
+div.nav7 span.leftBevel {
+	background: url('../images/topnav/homeLeftBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav7 span.rightBevel {
+	background: url('../images/topnav/homeRightBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav7 ul#navlist li a#current {
+	border-top: 1px solid #174a7c;
+	background: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat;
+}
+div.nav3 ul#navlist li a#current {
+	border-top: 1px solid #174a7c;
+	background: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat;
+}
+div.nav3 ul#subnavlist {
+	background-image: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat-x;
+}
+div.nav4 span.leftBevel, div.nav15 span.leftBevel {
+	background: url('../images/topnav/homeLeftBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav4 span.rightBevel, div.nav15 span.rightBevel {
+	background: url('../images/topnav/homeRightBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav4 ul#navlist li a#current, div.nav15 ul#navlist li a#current {
+	border-top: 1px solid #174a7c;
+	background: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat;
+}
+div.nav4 ul#subnavlist, div.nav15 ul#subnavlist {
+	background-image: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat-x;
+}
+div.nav5 span.leftBevel, div.nav12 span.leftBevel {
+	background: url('../images/topnav/homeLeftBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav5 span.rightBevel, div.nav12 span.rightBevel {
+	background: url('../images/topnav/homeRightBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav5 ul#navlist li a#current, div.nav12 ul#navlist li a#current {
+	border-top: 1px solid #174a7c;
+	background: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat;
+}
+div.nav5 ul#subnavlist, div.nav12 ul#subnavlist {
+	background-image: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat-x;
+}
+div.nav6 span.leftBevel, div.nav13 span.leftBevel {
+	background: url('../images/topnav/homeLeftBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav6 span.rightBevel, div.nav13 span.rightBevel {
+	background: url('../images/topnav/homeRightBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav6 ul#navlist li a#current, div.nav13 ul#navlist li a#current {
+	border-top: 1px solid #174a7c;
+	background: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat;
+}
+div.nav6 ul#subnavlist, div.nav13 ul#subnavlist {
+	background-image: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat-x;
+}
+div.nav7 span.leftBevel {
+	background: url('../images/topnav/homeLeftBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav7 span.rightBevel {
+	background: url('../images/topnav/homeRightBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav7 ul#navlist li a#current {
+	border-top: 1px solid #174a7c;
+	background: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat;
+}
+div.nav7 ul#subnavlist {
+	background-image: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat-x;
+}
+div.nav9 span.leftBevel, div.nav10 span.leftBevel {
+	background: url('../images/topnav/homeLeftBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav9 span.rightBevel, div.nav10 span.rightBevel {
+	background: url('../images/topnav/homeRightBevel.png');
+	background-repeat: no-repeat;
+}
+div.nav9 ul#navlist li a#current, div.nav10 ul#navlist li a#current {
+	border-top: 1px solid #174a7c;
+	background: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat;
+}
+div.nav9 ul#subnavlist, div.nav10 ul#subnavlist {
+	background-image: url('../images/topnav/homeGradient.png');
+	background-repeat: repeat-x;
+}
+/* End of CSS for managing the tabbed menu's across the top of the page */
+h1.pagebanner {
+	color: #CC6633;
+	overflow: visible;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 5px;
+	margin-top: 6px;
+	height: 30px;
+}
+/*
+.pagebanner#assessmentmanagement span {
+   display: none;
+}
+
+#assessmentmanagement {
+   padding: 0px;
+   background: #3F2D24 url(title-candidatemanagement.gif) no-repeat;
+}
+*/
+#reportsdashboard {
+	padding: 0px;
+	background: #3F2D24 url(title-reports.gif) no-repeat;
+}
+.reportpanel {
+	background: #fff;
+	width: 360px;
+	float: left;
+	margin: 5px;
+	margin-bottom: 20px;
+}
+.reportpanel h2 {
+	padding: 2px;
+	margin: 2px;
+	background: #D0DCEA;
+	color: #4973A6;
+}
+#waiting {
+	margin-top: 3px;
+	border-top: solid 2px #7ACCF5;
+	background: #E4F0F5 url(back-bluegradient.jpg) repeat-x;
+	background: #E4F0F5 url(../images/back-bluegradient.jpg) repeat-x;
+	padding: 5px;
+	padding-bottom: 20px;
+}
+#filterControls {
+	font: normal 12px arial;
+}
+#filterControls table td {
+	padding-left: 3px;
+}
+#filterControls div {
+	float: left;
+	white-space: nowrap;
+	margin-right: 15px;
+	margin-top: 3px;
+}
+#filterControls .button, #filterControls .searchbutton {
+	float: right;
+}
+table.newblue {
+	background: #fff;
+	border: none;
+	width: 960px;
+	margin: 0px 0 5px 0;
+	padding: 0px;
+}
+th.centerHeader {
+	text-align: center;
+}
+table.newblue thead tr, th.order1 a, th.order1 a:visited, th.order2 a, th.order2 a:visited, th.sorted a, th.sortable a, th.plaintext, th.dontWrap {
+	text-align: left;
+	vertical-align: center;
+	color: #4E4E4E;
+}
+table.newblue th {
+	padding: 1px 2px;
+	margin: 1px 2px;
+	text-align: left;
+	vertical-align: center;
+	background-color: #D9D9D9;
+	color: #4E4E4E;
+	font-size: 12px;
+	font-weight: bold;
+}
+table.newblue tr.total {
+	background-color: #D9D9D9;
+	border-top: 1px solid #000000;
+	font-weight: bold;
+}
+table.newblue tr.even {
+	background-color: #E9E9E9;
+}
+table.newblue tr.odd {
+	background-color: #FFFFFF;
+}
+table.newblue caption {
+	font-size: 12px;
+	font-weight: bold;
+	height: 24px;
+}
+table.newblue h1 {
+	font-size: 12px;
+	font-weight: bold;
+	float: left;
+	padding: 0px 0px 0px 5px;
+}
+table.newblue td {
+	padding: 0px 2px;
+	vertical-align: top;
+}
+.radio {
+	padding-top: 1px !important;
+}
+#reviewPageTop {
+	vertical-align: top;
+	height: 350px;
+}
+#testTitle {
+	text-align: center;
+}
+table.assessmentmanagement caption {
+	text-align: left;
+}
+table.assessmentmanagement .col1 {
+	width: 49%;
+}
+table.assessmentmanagement .col2 {
+	width: 36%;
+}
+table.assessmentmanagement .col2a {
+	width: 18%;
+}
+table.assessmentmanagement .col2b {
+	width: 18%;
+}
+table.assessmentmanagement .col3 {
+	width: 15%;
+	text-align: center;
+}
+div.feedback {
+	font-size: 12px;
+	font-weight: bold;
+}
+.notes {
+	border: 1px solid #999;
+	background-color: transparent;
+	margin-bottom: 4px;
+	margin-top: 4px;
+	width: 960px;
+	height: 100px;
+	overflow: auto;
+}
+.notes pre {
+	font: normal 11px Arial;
+	background: none;
+	border: none;
+}
+textarea.notes {
+	width: 500px;
+	height: 140px;
+	padding: 3px;
+	background-color: #fff;
+}
+textarea.readonly {
+	background-color: transparent;
+}
+textarea.notesAgreement {
+	width: 750px;
+	height: 80px;
+	padding: 3px;
+	background-color: #fff;
+}
+div.boxtop1, div.boxtop3 {
+	border-style: solid;
+	border-width: 0px;
+	background-color: transparent;
+	clear: both;
+	font-size: 12px;
+	font-weight: bold;
+	height: 18px;
+	margin-top: 1px;
+	text-align: left;
+	width: 960px;
+}
+.assessmentmanagement h1 {
+	background-image: url( ../images/icons/folder1.gif );
+}
+/* Product catalog display */
+.category {
+	margin-bottom: 20px;
+	clear: both;
+}
+.category h2 {
+	margin-bottom: 2px;
+	font-size: 14px;
+}
+.category .product {
+	margin-bottom: 5px;
+	clear: both;
+	overflow: auto;
+}
+.category .product div {
+	margin-right: 10px;
+	margin-top: 4px;
+	float: left;
+}
+.category .product .code {
+	width: 90px;
+}
+.category .product .name {
+	width: 180px;
+}
+.category .product .description {
+	width: 270px;
+}
+.category .product .price {
+	width: 70px;
+	text-align: right;
+}
+.small {
+	font-size: 12px;
+}
+.mininav span {
+	font-size: 12px;
+	float: left;
+	margin-right: 5px;
+}
+ul.legend {
+	margin-top: 25px;
+}
+ul.legend li {
+	margin-right: 15px;
+	display: inline;
+}
+#waitMessage {
+	display: none;
+	padding: 50px 5px;
+	text-align: center;
+}
+/* end temp for next gen style*/
+	/**************************************/
+	/*** Dashboard Styles *****************/
+	/**************************************/
+div.dashboard div.title li {
+	list-style: none;
+	margin: 0px;
+	display: inline;
+}
+div.dashboard div.title li a {
+	font-size: 15px;
+	font-weight: normal;
+}
+div.dashboard div.title {
+	text-align: center;
+	font: bold 18px arial;
+	padding-bottom: 10px;
+}
+div.dashboard table.masterDetailTable td {
+	border: 1px solid #aaa;
+	vertical-align: top;
+}
+div.dashboard table.masterDetailTable td h4 {
+	text-align: center;
+	padding: 15px;
+	margin: 0px;
+}
+div.dashboard table.masterDetailTable td.col1 {
+	width: 5%;
+}
+div.dashboard table.masterDetailTable td.col2 {
+	text-align: center;
+	border-left: none;
+}
+#databaseinfo td.col1 {
+	font-weight: bold;
+	text-align: right;
+	width: 15%;
+	padding-right: 5px;
+}
+#reportbreadcrumb {
+	margin: 0px;
+	padding: 0px;
+	padding-right: 10px;
+}
+#reportbreadcrumb li {
+	font-weight: bold;
+	font-size: 14px;
+	list-style: none;
+	display: inline;
+}
+span.pagebanner {
+	border: 1px solid #999;
+	border-bottom: none;
+	background-color: white;
+	padding-top: 5px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	display: block;
+	width: 45%;
+}
+span.pagelinks {
+	border: 1px solid #999;
+	border-top: none;
+	background-color: white;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	display: block;
+	width: 45%;
+	margin-bottom: 5px;
+}
+div.sql {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+div.assessmentsOverview {
+	border: 1px solid #999;
+	border-top: none;
+	text-align: center;
+}
+/**************************************/
+	/*** End Dashboard ********************/
+	/**************************************/
+	/**************************************/
+	/*** Overlib Styles *******************/
+	/**************************************/
+.overlibFontClass {
+	font-family: 'Comic Sans MS';
+	font-size: 12px;
+}
+.overlibInnerTable {
+	background-color: #FFFFCC;
+	padding: 5px;
+}
+.overlibOuterTable {
+	border: 1px solid #333399;
+}
+/**************************************/
+	/*** Overlib Dashboard ****************/
+	/**************************************/
+	/** Re-styled the test form details/edit pages */
+div.detailTabs {
+	font-size: 80%;
+	font-weight: bold;
+	margin-top: 15px;
+	padding-bottom: 2px;
+	border-bottom: 2px solid #C3C1BE;
+}
+a.detailsTab {
+	background-color: #f0f0f0;
+	border-bottom-width: 0px;
+	padding: 2px 1em 2px 1em;
+	text-decoration: none;
+}
+a.detailsTab, a.detailsTab:visited {
+	color: #808080;
+}
+a.detailsTab:hover {
+	background-color: #d0d0d0;
+	color: #606060;
+}
+a.detailsTab.activeTab, a.detailsTab.activeTab:hover, a.detailsTab.activeTab:visited {
+	background-color: #c0c0c0;
+	color: #000000;
+}
+.testforminputs {
+	padding-bottom: 15px;
+}
+.testforminputs table.default td {
+	white-space: nowrap;
+}
+.testformdetails h2 {
+	font-size: 16px;
+}
+.inTestInstructions {
+	font-size: 12px;
+}
+table.testforms td {
+	white-space: nowrap;
+}
+table.testforms td.col1 {
+	padding-right: 5px;
+}
+table.testforms td.col3 {
+	text-align: right;
+	padding-right: 5px;
+}
+table.testforms td.testDescription {
+	white-space: normal;
+}
+.forcedIndent {
+	padding-left: 4px;
+}
+div.testCenterNotOnLocator {
+	color: #f00;
+}
+div.waitMessage {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+div.testFormAdminNotesText {
+	border: 1px solid #999;
+	height: 75px;
+	margin-bottom: 15px;
+}
+/** Test form re-style */ /******************************************/
+	/********            Surveys **************/
+	/******************************************/
+.wizardnav {
+	clear: both;
+	overflow: auto;
+	border-bottom: #333 solid 1px;
+	margin-bottom: 20px;
+	height: 81px;
+}
+.progressbar {
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-bottom: 2px;
+	width: 100%;
+	background: #333;
+	overflow: auto;
+}
+.progressbar li {
+	display: block;
+	float: left;
+	background: #333;
+	color: #fff;
+	border-left: solid 1px #999;
+	padding: 3px;
+	margin: 0px;
+	width: 19%;
+}
+.progressbar li#currentstep {
+	background: #666;
+}
+.surveyquestions .inset {
+	margin: 0 0 20px 30px;
+}
+.questioncontrols {
+	width: 100%;
+}
+.questioncontrols th {
+	font-size: 12px;
+	padding-bottom: 15px;
+	text-align: left;
+}
+.questioncontrols td.column2 {
+	width: 80%;
+	padding-left: 5px;
+}
+.questioncontrols td.column1 {
+	vertical-align: top;
+	padding-top: 20px;
+}
+.questioncontrols td.column3 {
+}
+.surveyquestion {
+	padding: 15px 5px 5px 5px;
+	border: solid 1px #999;
+	background: white;
+}
+.tacticalReport th {
+	vertical-align: top;
+}
+.tacticalReport td {
+	text-align: center;
+}
+table.newblue tr.total {
+	border-top: solid 1px;
+	padding: 2px;
+}
+table.newblue colParkInfo {
+	width: 15%;
+	text-align: center;
+}
+.resultsbyquestion dt {
+	width: auto;
+	font-weight: normal;
+	float: none;
+	margin-top: 25px;
+}
+.resultsbyquestion dd {
+	width: auto;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+/******************************************/
+	/********            Surveys **************/
+	/******************************************/
+table.jdbcdata {
+	width: 100%;
+}
+table.jdbcdata td {
+	white-space: pre;
+}
+table.jdbcdata th.sortable a {
+	padding-right: 9px;
+	margin: 0px;
+	text-align: center;
+}
+div.forensiclist h3 {
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+/* Use this to hide the second language session on the proctored candidate launch page */
+.secondLanguage {
+	display: none;
+}
+#entrylist h3 {
+	padding-left: 2px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#forensicitem {
+	padding-bottom: 15px;
+	padding-left: 2px;
+}
+td.rightalign {
+	text-align: right;
+}
+.biometricPanel {
+	height: 375px;
+}
+/**********************************/
+	/*** New Tab and Box Layout CSS ***/
+	/**********************************/
+div.marty_content {
+	display: block;
+	/* [disabled]width: 960px;
+*/
+	padding: 10px 10px 0px 0px;
+	min-height: 400px;
+	height: auto !important;
+	height: 400px;
+	margin: 15px 0px 0px 0px;
+}
+div.page1 {
+	background-image: url('../images/homeSplash.jpg');
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+div.page2, div.page14 {
+	background-image: url('../images/testTakersSplash.jpg');
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+div.page3 {
+	background-image: url('../images/testingNetworkSplash.jpg');
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+div.page4 {
+	background-image: url('../images/assessmentsSplash.jpg');
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+div.page5 {
+	background-image: url('../images/adminTeamSplash.jpg');
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+div.page6, div.page13, div.page52 {
+	background-image: url('../images/regionsSplash.jpg');
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+div.page7 {
+	background-image: url('../images/clientSplash.jpg');
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+div.page9 {
+	background-image: url('../images/reportsSplash.jpg');
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+div.borderbuttons {
+	padding: 0px 0px 0px 0px;
+	width: auto;
+}
+div.data {
+	float: left;
+	display: none;
+	vertical-align: top;
+	margin: 0px 0px 0px 0px;
+	width: 825px;
+	padding: 10px 5px 5px 10px;
+	background-color: #FFFFFF;
+	min-height: 400px;
+	height: auto !important;
+	height: 400px;
+}
+div.monodata {
+	float: left;
+	display: block;
+	vertical-align: top;
+	margin: 0px 0px 0px 0px;
+	width: 895px;
+	padding: 10px 5px 5px 10px;
+	background-color: #FFFFFF;
+	min-height: 400px;
+	height: auto !important;
+	height: 400px;
+}
+div.leftnav {
+	float: left;
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
+	background-color: #FFFFFF;
+	width: 100px;
+	min-height: 400px;
+}
+div.fauxleftnav {
+	float: left;
+	display: block;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
+	background-color: #FFFFFF;
+	width: 30px;
+	min-height: 400px;
+	position: relative;
+	left: -999px;
+	visibility: hidden;
+}
+div.leftnav img {
+	border: 0;
+	margin: 5px 5px 0px 5px;
+	float: left;
+}
+ul.nav {
+	float: left;
+	margin: 0px;
+	padding: 0px 0px 50px 0px;
+	list-style-type: none;
+	width: 100px;
+}
+div.fauxleftnav ul.nav {
+	float: left;
+	margin: 0px;
+	padding: 0px 0px 50px 0px;
+	list-style-type: none;
+	width: 30px;
+}
+ul.nav li {
+	margin: 0px 0px 0px 0px;
+	display: block;
+	font-size: 12px;
+	font-family: verdana, helvetica, sans-serif;
+	/* [disabled]text-transform: lowercase;
+*/
+	border-bottom: 1px solid #d0dae1;
+	border-right: 1px solid #d0dae1;
+}
+ul.nav li.gutter {
+	border-bottom: none;
+}
+ul.nav li a {
+	display: block;
+	color: #333366;
+	text-decoration: none;
+	text-align: right;
+	margin: 0;
+	padding: 8px 10px 8px 0px;
+}
+ul.nav li a:hover {
+	display: block;
+	text-decoration: underline;
+}
+ul.nav li.selected a {
+	font-weight: bold;
+}
+div.page1 ul li a {
+	color: #545454;
+}
+ul.page1 li.selected a {
+	background-image: url('../images/rightArrow1.gif');
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+div.page2 ul li a {
+	color: #545454;
+}
+ul.page2 li.selected a {
+	background-image: url('../images/rightArrow2.gif');
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+div.page3 ul li a {
+	color: #545454;
+}
+ul.page3 li.selected a {
+	background-image: url('../images/rightArrow3.gif');
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+div.page4 ul li a {
+	color: #545454;
+}
+ul.page4 li.selected a {
+	background-image: url('../images/rightArrow4.gif');
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+div.page5 ul li a {
+	color: #545454;
+}
+ul.page5 li.selected a {
+	background-image: url('../images/rightArrow5.gif');
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+div.page6 ul li a {
+	color: #545454;
+}
+ul.page6 li.selected a {
+	background-image: url('../images/rightArrow6.gif');
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+div.page7 ul li a {
+	color: #545454;
+}
+ul.page7 li.selected a {
+	background-image: url('../images/rightArrow7.gif');
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+div.page9 ul li a {
+	color: #545454;
+}
+ul.page9 li.selected a {
+	background-image: url('../images/rightArrow9.gif');
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+div.page52 ul li a {
+	color: #545454;
+}
+ul.page52 li.selected a {
+	background-image: url('../images/rightArrow6.gif');
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+table.tabled_form td {
+	font-weight: bold;
+	padding: 0px 5px 2px 0px;
+}
+table.tabled_form td.top {
+	vertical-align: top;
+}
+table.tabled_form td.button_label {
+	vertical-align: middle;
+}
+table.plain_form td {
+	vertical-align: top;
+	padding: 0px 5px 2px 0px;
+}
+table.plain_form td.col1 {
+	font-weight: bold;
+}
+table.plain_form td.col3 {
+	font-weight: bold;
+}
+table.plain_form td.top {
+	vertical-align: top;
+	font-weight: bold;
+}
+div.data table.newblue {
+	width: 820px
+}
+div.monodata table.newblue {
+	width: 890px
+}
+h3 {
+	text-align: center;
+	font-size: 16pt;
+	font-family: arial, verdana, sans-serif;
+	margin: 0px 0px 5px 0px;
+}
+div.leftbox {
+	display: none;
+	margin: 0;
+	float: left;
+	width: 395px;
+}
+div.homeBlock {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #545454;
+	width: 450px;
+	border: 1px #DDDDDD solid;
+	padding: 5px 10px 10px 10px;
+	/* [disabled]background-image: url('../images/homeGrayGradient.gif');
+*/
+	/* [disabled]background-position: bottom left;
+*/
+	/* [disabled]background-repeat: repeat-x;
+*/
+}
+div.homeBlock ul {
+	list-style: none;
+	margin: 5px 5px 5px 5px;
+}
+div.homeBlock ul li {
+	padding: 3px 3px 3px 3px;
+}
+div.homeBlock ul li a {
+	padding: 0px 0px 0px 20px;
+}
+div.homeBlock ul li.pdf a {
+	background-image: url('../images/icons/pdf.gif');
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+div.homeBlock ul li.vid a {
+	background-image: url('../images/icons/video.gif');
+	background-position: center left;
+	background-repeat: no-repeat;
+}
+.deliveryOrderHeader {
+	background-image: url( ../images/icons/folder1.gif );
+	font-size: 7px;
+	padding-left: 16px;
+	padding-bottom: 16px;
+}
+.dragAndDropHeader {
+	background-image: url( ../images/icons/dragItem.gif );
+	font-size: 6px;
+	padding: 0px 0px 5px 23px;
+	margin: 0px 0px 0px 5px;
+}
+.collapsableHeader {
+	background-image: url( ../images/collapsable.gif );
+	font-size: 6px;
+	padding: 0px 0px 5px 23px;
+	margin: 0px 0px 0px 5px;
+}
+.alertHeader {
+	background-image: url( ../images/icons/alert.jpg );
+	font-size: 6px;
+	padding: 0px 0px 5px 23px;
+	margin: 0px 0px 0px 5px;
+}
+.userInput {
+	background-image: url( ../images/input.gif );
+	font-size: 6px;
+	padding: 0px 0px 5px 27px;
+	margin: 0px 0px 0px 5px;
+}
+#deliveryOptionHelp {
+	visibility: hidden;
+	font-size: 12px;
+	background-color: #E6E6E6;
+	border: 2px solid #128902;
+	margin: 0px 0px 0px 5px;
+	padding: 5px;
+	width: 400px;
+	text-align: left;
+}
+#selectTestForLaunch {
+	font-size: 12px;
+	background-color: #E6E6E6;
+	border: 2px solid #128902;
+	margin: 0px 0px 0px 5px;
+	padding: 5px;
+	width: 400px;
+	text-align: left;
+	float: right;
+}
+/* Popup Editor Styles */
+div#popEditor {
+	display: none;
+	position: absolute;
+	position: fixed;
+	width: 1024px;
+	left: 50%;
+	margin-left: -512px;
+	/* You get this number by dividing the width by 2 and then adding any padding/border pixels */
+	margin-right: 0px;
+	margin-bottom: 0px;
+	top: 100px;
+}
+div#popBlocker {
+	display: none;
+	position: absolute;
+	position: fixed;
+	left: 50%;
+	margin-left: -512px;
+	/* You get this number by dividing the width by 2 and then adding any padding/border pixels */
+	margin-right: 0px;
+	margin-bottom: 0px;
+	top: 0px;
+	opacity: .5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity = 50);
+}
+a:link {
+	text-decoration: underline;
+	color: #545454;
+}
+a:visited, a.visited {
+	color: #174a7c;
+}
+a:hover, a.hover {
+	color: #df7a1c;
+	text-decoration: none;
+}
+
+.questiontable {
+	padding-left: 8px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.questions p {
+	font-weight: bold;
+	padding-left: 8px  !important;
+	margin-bottom: 0px  !important;
+	margin-top: 5px;
+}
+
+p {
+	margin: 5px 0px 0px 0px;
+}
+/* reverts to normal P spacing ... make permanent once we can be sure all P's will look okay this way */
+.normal p {
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+div.breakword {
+	word-wrap: break-word;
+}
+
+.fixedtable {
+	width: 750px;
+	table-layout: fixed;
+}
+
+.receiptHead1 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.receiptHead2 {
+	font-size: 14px;
+	font-weight: normal;
+	color: #de791b;
+}
+
+.receiptHead3 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #17497c;
+}
+
+.receiptBody {
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+}
+
+.receiptFooter {
+	font-size: 12px;
+	font-weight: normal;
+	color: 6D6C6B;
 }
 
 input[type="text"], input[type="password"]  {

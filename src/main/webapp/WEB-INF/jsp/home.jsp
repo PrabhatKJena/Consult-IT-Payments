@@ -7,12 +7,13 @@
 <head>
 <link href="<c:url value="css/app.css" />" rel="stylesheet"
 	type="text/css">
-<title>Welcome to Consult-IT Payment Service</title>
+	<link href="<c:url value="css/YXzLBN.css" />" rel="stylesheet"
+	type="text/css">
+<title>welcome to consult-IT</title>
 </head>
 <body class="security-app">
-	
-	<div class="lc-block">
-		<h1>Welcome to Consult-IT!</h1>
+	<div class="lcHome">
+		<h1>Welcome!</h1>
 		<div class="alert-normal">
 			Click <a href="<spring:url value='/hello' />">here</a> to see a
 			greeting.

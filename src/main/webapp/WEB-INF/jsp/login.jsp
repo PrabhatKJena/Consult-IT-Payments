@@ -8,10 +8,13 @@
 <head>
 <link href="<c:url value="css/app.css" />" rel="stylesheet"
 	type="text/css">
-<title>Welcome to Consult-IT Payment Service</title>
+<title>Spring Security Example</title>
 </head>
 <body class="security-app">
-	
+	<div class="details">
+		<h2>Consult-IT Financial</h2>
+		
+	</div>
 
 	<form action="/login" method="post">
 
