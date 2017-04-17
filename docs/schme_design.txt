@@ -1,0 +1,31 @@
+USERS
+-----
+- user_id
+- user_fname
+- user_lname
+- phone
+- email
+- sex (M/F)
+- is_active (1/0)
+- is_deleted (1/0)
+- created_ts
+- updated_ts
+
+USER_LOGIN
+----------
+- user_id
+- login_name
+- login_pwd
+- group_id
+- status (1/0)
+
+USER_GROUPS
+-----------
+- group_id
+- group_name
+- group_desc
+- status (1/0)
+
+CONSULTANTS
+-----------
+
